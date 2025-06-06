@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
-          server: ftp://ftp.dlptest.com/
+          server: ftp.dlptest.com
           username: dlpuser
           password: rNrKYTX9g7z3RgJRmxWuGHbeu
           local-dir: dist/
